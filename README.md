@@ -5,9 +5,7 @@ Astana IT University · Real-time Data Analysis · 2026-2027
 
 | | |
 | --- | --- |
-| **Author** | Nurkeldi Samuratov (ID 240401, group BDA-2404) |
-| **Team members** | Alisher Mendulda, Zharkyn Mukhambetiyar |
-| **Variant** | Room C1.3.101 Stream Processing Variant |
+| **Author** | Nurkeldi Samuratov, Mendulda Alisher, Zharkyn Mukhambetiyar (group BDA-2404) |
 | **Version** | `commit-v1.2-completed-assignment2` |
 | **Submitted** | September 21, 2026 |
 
@@ -27,11 +25,11 @@ Input columns: `Temp_C`, `CO2_ppm`, `Occupancy`, `Power_kW`.
 
 ## Requirements
 
-- Python 3.10+
-- Pandas 2.x
-- NumPy 1.26+
-- Matplotlib 3.10.0
-- Seaborn 0.13+
+- Python
+- Pandas 
+- NumPy 
+- Matplotlib 
+- Seaborn 
 
 ## How to run
 
@@ -100,6 +98,3 @@ Operational recommendations for AITU facility management:
 - Two-sided linear interpolation needs the next observation, so it is not causal. A production stream would need a small buffer or a one-sided estimator such as an adaptive Kalman filter.
 - The dataset is a 12-minute sample from a single room, so the regression baseload and thresholds are indicative rather than validated.
 
-## Academic integrity
-
-This submission is the team's own work. Any external material or reused code is identified in the report.
